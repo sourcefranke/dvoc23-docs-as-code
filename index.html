@@ -1,128 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Home - DevOps Camp 2023</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=".">DevOps Camp 2023</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
-            
-            
-                <li class="active">
-                    <a href=".">Home</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="schmerzen/">Schmerzen</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="good_practices/">Good Practices</a>
-                </li>
-            
-            
-            </ul>
-
-            <!-- Search, Navigation and Repo links -->
-            <ul class="nav navbar-nav navbar-right">
-                    <li class="disabled">
-                        <a rel="next" >
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="schmerzen/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-        <div class="container">
-                <div class="row">
-                    <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-      
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>DevOps Camp 2023</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
-        <li class="main active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-        
-            <li><a href="#commands">Commands</a></li>
-        
-            <li><a href="#project-layout">Project layout</a></li>
-        
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Home";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
     
-    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> DevOps Camp 2023
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#session-docs-as-code-von-lukas">Session "Docs as Code" von Lukas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cli-befehle">CLI Befehle</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#falls-benotigt">falls benötigt</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#neues-projekt-initialisieren">Neues Projekt initialisieren</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#statische-webseite-lokal-starte">Statische Webseite lokal starte</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#auf-github-pages-veroffentlichen">Auf GitHub Pages veröffentlichen</a>
+    </li>
+        </ul>
+    </li>
     </ul>
-</div></div>
-                    <div class="col-md-9" role="main">
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="schmerzen/">Schmerzen</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="good_practices/">Good Practices</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
-                </div>
-        </div>
-
-    <hr>
-    <footer class="container">
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">DevOps Camp 2023</a>
         
-        <center>Documentation built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="http://kristopolous.github.io/BOOTSTRA.386">BOOTSTRA.386</a>.</center>
-    </footer>
-    </body>
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Home</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="willkommen-zum-devops-camp-2023">Willkommen zum DevOps Camp 2023!</h1>
+<h2 id="session-docs-as-code-von-lukas">Session "Docs as Code" von Lukas</h2>
+<p>Dies war eine Live Demo des Tools <strong><em>mkdocs</em></strong>!</p>
+<p>Es dienst als anschauliches Beispiel des Ansatzes von "Docs as Code".</p>
+<p>Wir haben über Schmerzen und Good Practices beim Schreiben von Software-Dokumentation gesprochen
+und dabei live mit diesem Tool hier dokumentiert und anschließend sofort on-the-fly über Github Pages veröffentlicht.</p>
+<h2 id="cli-befehle">CLI Befehle</h2>
+<p>Kommandos, die wir während der Session benutzt haben:</p>
+<h3 id="installation">Installation</h3>
+<pre><code>pip install mkdocs
+</code></pre>
+<h4 id="falls-benotigt">falls benötigt</h4>
+<pre><code>pip install plantuml
+pip install mkdocs-plantuml
+pip install mkdocs-bootstrap386
+</code></pre>
+<h3 id="neues-projekt-initialisieren">Neues Projekt initialisieren</h3>
+<pre><code>python -m mkdocs new &lt;project_name&gt;
+</code></pre>
+<h3 id="statische-webseite-lokal-starte">Statische Webseite lokal starte</h3>
+<pre><code>python -m mkdocs serve
+</code></pre>
+<h3 id="auf-github-pages-veroffentlichen">Auf GitHub Pages veröffentlichen</h3>
+<p>Direkt vom lokalen Terminal aus !! ;)</p>
+<p>Macht wirklich alles - nichts muss mehr händisch getan werden!</p>
+<pre><code>python -m mkdocs gh-deploy
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="schmerzen/" class="btn btn-neutral float-right" title="Schmerzen">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="schmerzen/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
 </html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2023-10-07 14:17:51.335158+00:00
+-->
