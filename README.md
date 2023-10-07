@@ -10,6 +10,13 @@ Session about ***Docs as Code*** at the DevOpsCamp 2023
 pip install mkdocs
 ````
 
+#### if needed:
+
+````
+pip install plantuml
+pip install mkdocs-plantuml
+````
+
 ### Initialize new project
 
 ````
