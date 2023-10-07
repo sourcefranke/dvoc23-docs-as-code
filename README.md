@@ -15,6 +15,7 @@ pip install mkdocs
 ````
 pip install plantuml
 pip install mkdocs-plantuml
+pip install mkdocs-bootstrap386
 ````
 
 ### Initialize new project
@@ -29,7 +30,7 @@ python -m mkdocs new <project_name>
 python -m mkdocs serve
 ````
 
-### Deploy at Github Pages
+### Deploy at GitHub Pages
 
 right from local CLI !!
 

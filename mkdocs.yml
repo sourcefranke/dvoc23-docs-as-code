@@ -1,0 +1,12 @@
+site_name: DevOps Camp 2023
+
+theme: readthedocs
+# theme: bootstrap386
+
+nav:
+  - Home: index.md
+  - Schmerzen: schmerzen.md
+  - Good Practices: good_practices.md
+
+plugins:
+  - plantuml-colocator
