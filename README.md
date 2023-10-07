@@ -2,6 +2,10 @@
 
 Session about ***Docs as Code*** at the DevOpsCamp 2023
 
+## Result
+
+The resulting static web page can be found here: [https://sourcefranke.github.io/dvoc23-docs-as-code/](https://sourcefranke.github.io/dvoc23-docs-as-code/)
+
 ## CLI Commands
 
 ### Install

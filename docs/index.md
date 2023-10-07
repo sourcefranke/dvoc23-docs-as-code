@@ -9,6 +9,9 @@ Es dienst als anschauliches Beispiel des Ansatzes von "Docs as Code".
 Wir haben über Schmerzen und Good Practices beim Schreiben von Software-Dokumentation gesprochen
 und dabei live mit diesem Tool hier dokumentiert und anschließend sofort on-the-fly über Github Pages veröffentlicht.
 
+## Quellcode
+Der entstandene Quellcode ist hier zu finden [https://github.com/sourcefranke/dvoc23-docs-as-code](https://github.com/sourcefranke/dvoc23-docs-as-code)
+
 ## CLI Befehle
 
 Kommandos, die wir während der Session benutzt haben:
