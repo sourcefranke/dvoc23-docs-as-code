@@ -29,7 +29,7 @@ python -m mkdocs new <project_name>
 python -m mkdocs serve
 ````
 
-### Deploy at Githup Pages
+### Deploy at Github Pages
 
 right from local CLI !!
 
